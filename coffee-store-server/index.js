@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5173/", "https://coffee-store-31346.web.app/"]
+  origin: ["http://localhost:5173/", "https://coffee-store-31346.web.app"]
 }));
 app.use(express.json());
 
